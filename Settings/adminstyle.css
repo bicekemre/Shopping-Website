@@ -1,0 +1,518 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: antiquewhite;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.WhiteText, .WhiteText a:link, .WhiteText a:hover, .WhiteText a:active, .WhiteText a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.BlackText, .BlackText a:link, .BlackText a:hover, .BlackText a:active, .BlackText a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.FooterMenu, .FooterMenu a:link, .FooterMenu a:hover, .FooterMenu a:active, .FooterMenu a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #353745;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.CargoTrackInput{
+    width: 75%;
+    height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.CargoTrackButton{
+    height: 30px;
+    border: 1px solid black;
+    background: #b8860b;
+    padding: 5px 50px;
+    color: white;
+}
+
+.CargoTrackButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 50px;
+    color: white;
+    cursor: pointer;
+}
+
+InputArea{
+    width: 10%;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.TextArea{
+    width: 25%;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+.SendButton{
+    height: 30px;
+    border: 1px solid black;
+    background: #b8860b;
+    padding: 5px 30px;
+    color: white;
+}
+
+.SendButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.ResultPages a:link, .ResultPages a:hover, .ResultPages a:active, .ResultPages a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.QuestionTitle{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #000000;
+    cursor: pointer;
+}
+
+.QuestionTitle:hover{
+    background: #F1F1F1;
+    cursor: pointer;
+}
+
+.AnswersArea{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.SignUpButton{
+    height: 30px;
+    border: 1px solid black;
+    background: #b8860b;
+    padding: 5px 30px;
+    color: white;
+}
+
+.SignUpButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+}
+.SelectArea{
+    width: 200px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.SignUpForm a:link, .SignUpForm a:hover, .SignUpForm a:active, .SignUpForm a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.LoginButton{
+    height: 30px;
+    border: 1px solid black;
+    background: #b8860b;
+    padding: 5px 30px;
+    color: white;
+}
+
+.LoginButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+}
+
+ForgotPassword a:link, .ForgotPassword a:hover, .ForgotPassword a:active, .ForgotPassword a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.ChangeButton{
+    height: 30px;
+    border: 1px solid black;
+    background: darkgoldenrod;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ChangeButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SaveButton{
+    height: 30px;
+    border: 1px solid black;
+    background: darkgoldenrod;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.SaveButton:hover{
+    height: 30px;
+    border: 1px solid black;
+    background: #6b4802;
+    padding: 5px 30px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.PaginationArea{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PaginationTextArea{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PaginationNumberArea{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PaginationActive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.PaginationPasive{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #F6F6F6;
+    border: 1px solid #DADADA;
+    outline: 0;
+    color: #646464;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.PaginationPasive a:link, .PaginationPasive a:hover, .PaginationPasive a:active, .PaginationPasive a:visited{
+    color: #646464;
+    text-decoration: none;
+}
+
+.CommentTextArea{
+    width: 95%;
+    height: 230px;
+    padding: 10px 10px;
+}
+
+
+.SearchArea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+}
+
+.SearchAreaButtonArea{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.SearchAreaInputArea{
+    display: inline-block;
+    float: right;
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: -o-calc(100% - 60px);
+    width: -ms-calc(100% - 60px);
+    width: calc(100% - 60px);
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.SearchAreaButton{
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #646464;
+    outline: 0;
+    background: url(../Images/AraButonuIciBuyuteci.png);
+    background-repeat: no-repeat;
+    background-position: center left 19px;
+}
+
+.SearchAreaButton:hover{
+    cursor: pointer;
+}
+
+.SearchAreaInput{
+    display: block;
+    float: left;
+    width: -webkit-calc(100% - 42px);
+    width: -moz-calc(100% - 42px);
+    width: -o-calc(100% - 42px);
+    width: -ms-calc(100% - 42px);
+    width: calc(100% - 42px);
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: url(../Images/AramaTextInputuIciSoruIsareti.png);
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    border: 1px solid #646464;
+    outline: 0;
+    text-align: left;
+}
+
+.BasketButton{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: darkgoldenrod;
+    color: white;
+    border: 1px solid #6b4802;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.BasketButton:hover{
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    background: #6b4802;
+    color: white;
+    border: 1px solid darkgoldenrod;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CompletedShopButton{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 10px 0px 5px 0px;
+    background: darkgoldenrod;
+    color: white;
+    border: 1px solid #6b4802;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.CompletedShopButton:hover{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 10px 0px 5px 0px;
+    background: #6b4802;
+    color: white;
+    border: 1px solid #6b4802;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.CompletedShopButton a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.CompletedShopButton a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.CompletedShopButton a img{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    max-height: 20px;
+    margin-top: 3px;
+    margin-left: 73px;
+}
+
+.CompletedShopButton a div{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.PaymentButton{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    background: darkgoldenrod;
+    color: white;
+    border: 1px solid #6b4802;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.PaymentButton:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.MainPages a:link, .MainPages a:hover, .MainPages a:active, .MainPages a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
